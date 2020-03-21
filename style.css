@@ -1,0 +1,56 @@
+.section-form {
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 2px 3px darkgrey;
+}
+
+.section-form input {
+    margin-bottom: 5px;
+}
+
+.section-form button {
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.book-title {
+    margin-left: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.books-list .details {
+    margin-top: 35px;
+    display: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 75vw;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    box-shadow: 2px 3px 4px darkgray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.edit-btn {
+    margin-left: 10px;
+}

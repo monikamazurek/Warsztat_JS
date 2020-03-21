@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop - Books</title>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit-icons.min.js"></script>
+  <!-- App CSS-->
+  <link rel="stylesheet" href="style.css" />
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="section-form">
+      <form>
+        <fieldset class="uk-fieldset">
+          <legend class="uk-legend">Dodaj</legend>
+          <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Tytuł" />
+            <input class="uk-input" type="text" placeholder="Autor" />
+            <input class="uk-input" type="text" placeholder="ISBN" />
+            <input class="uk-input" type="text" placeholder="Wydawca" />
+            <input class="uk-input" type="text" placeholder="Gatunek" />
+            <button class="add-btn uk-button uk-button-primary">Dodaj</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="section-books">
+      <h2>Książki</h2>
+      <ul class="books-list">
+        <!-- Książki wstawione dynamicznie z REST API -->
+      </ul>
+    </div>
+  </div>
+  <!-- App JS -->
+  <script src="app.js"></script>
+</body>
+</html>
